@@ -1,0 +1,8 @@
+Toate cerintele au fost implementate de la MIPS 16 versiunea pipeline.
+De la laboratorul 9 am reusit sa transmit toate semnalele prin blocurile de registri structurate pe niveluri.
+Probleme au aparut doar la multi-driven signals atunci cand s-au mapat gresit din neatentie semnalele, 
+in rest doar warnings de la latches din ALU si led-urile care primeau valori in main fara clock.
+
+Hazardurile au fost eliminate cu ajutorul tabelului de tacturi de ceas iar ca solutie am ales introducerea mai multor instructiuni 
+de tip NoOP sau bubble care sa intarzie executia si sa se pastreze corespunzator datele de pe semnale.
+https://drive.google.com/file/d/1GFf_vLrFJg6zV8rDRQrc5qohtlWQJTvF/view?usp=sharing
